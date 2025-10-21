@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "types": ["@playwright/test", "node"],
+    "lib": ["ES2021", "DOM"],
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "utils/**/*.ts", "fixtures/**/*.ts"]
+}

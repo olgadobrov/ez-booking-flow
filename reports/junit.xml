@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="92.53035700000001">
+<testsuite name="booking.doublebooking.spec.ts" timestamp="2025-10-20T23:49:47.023Z" hostname="chromium" tests="1" failures="0" skipped="0" time="37.929" errors="0">
+<testcase name="TC-002: Member A holds slot at payment; Member B cannot book the same time" classname="booking.doublebooking.spec.ts" time="37.929">
+<properties>
+<property name="info" value="Slot &quot;9:00 AM&quot; not visible for Member B — PASS">
+</property>
+</properties>
+</testcase>
+</testsuite>
+<testsuite name="booking.happypath.spec.ts" timestamp="2025-10-20T23:49:47.023Z" hostname="chromium" tests="1" failures="0" skipped="0" time="30.054" errors="0">
+<testcase name="TC-001 (POM): member booking &gt; slot selection &gt; card payment &gt; begin MQ" classname="booking.happypath.spec.ts" time="30.054">
+</testcase>
+</testsuite>
+<testsuite name="payments.applepay.gating.spec.ts" timestamp="2025-10-20T23:49:47.023Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.886" errors="0">
+<testcase name="TC-003: Apple Pay is offered on WebKit (macOS) and not on Chromium/Firefox" classname="payments.applepay.gating.spec.ts" time="22.886">
+</testcase>
+</testsuite>
+</testsuites>
