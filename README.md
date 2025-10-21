@@ -1,4 +1,4 @@
-# Ezra Booking Flow — Playwright E2E (POM)
+# Ezra Booking Flow - Playwright E2E (POM)
 
 This repository automates the **3 highest-risk/impact** test cases for Ezra’s booking flow:
 
@@ -12,7 +12,6 @@ All tests are written in **TypeScript**, use the **Page Object Model**, and run 
 
 **1) Prerequisites**
 
-```bash
 # Node.js ≥ 18 (tested on Node 22.x)
 # node -v
 # npm or pnpm
@@ -22,10 +21,8 @@ All tests are written in **TypeScript**, use the **Page Object Model**, and run 
 
 **2) Setup / Installation**
 https://playwright.dev/docs/intro
-
 # Clone the repository
 git clone https://github.com/olgadobrov/ez-booking-flow.git
-
 cd ez-booking-flow
 
 # Install dependencies
